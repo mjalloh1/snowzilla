@@ -1,0 +1,42 @@
+p {
+    font-size: 16px;
+}
+
+body {
+    background-color: #faebcc;
+}
+
+.jumbotron {
+    background: url(http://www.mylpl.info/wp-content/uploads/2013/12/super-mario.png);
+    background-repeat: no-repeat;
+    color: black;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    margin-left: 80px;
+    text-shadow: 2px 2px #947340;
+    /* bright yellow #F7F16E*/
+}
+
+.heading {
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+#headText {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.explanation h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
