@@ -70,3 +70,5 @@ function loginUser() {
         }
     });
 }
+
+//Hello this is a test if I can use Git correctly.
