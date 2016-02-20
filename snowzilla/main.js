@@ -1,6 +1,10 @@
 // Initializing Parse
 Parse.initialize("q8VG9RxVyaj9GFlhqr20IzOOx19yoiEnstZnIhDv", "Tp8M5MjTO7SPvk2ggKK0hYmrzvN4XjMoaSeCoAaz");
 
+// RIOT MOUNT
+riot.mount('create-user');
+riot.mount('login');
+
 //Declaring the user class of Parse objects
 var User = Parse.Object.extend("User");
 
@@ -70,5 +74,3 @@ function loginUser() {
         }
     });
 }
-
-//Hello this is a test if I can use Git correctly.
