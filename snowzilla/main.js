@@ -1,10 +1,17 @@
 // Initializing Parse
 Parse.initialize("q8VG9RxVyaj9GFlhqr20IzOOx19yoiEnstZnIhDv", "Tp8M5MjTO7SPvk2ggKK0hYmrzvN4XjMoaSeCoAaz");
 
+<<<<<<< HEAD
 riot.mount('create-user');
 riot.mount('login');
 
 
+=======
+// RIOT MOUNT
+riot.mount('create-user');
+riot.mount('login');
+
+>>>>>>> elliot
 //Declaring the user class of Parse objects
 var User = Parse.Object.extend("User");
 
